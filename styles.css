@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.container{
+    height: 100%;
+    background-color: lightgray;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
+
+
+.qrcode{
+    width: 18%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.qrpic{
+    height: 100%;
+    max-width: fit-content;
+    margin-bottom: 25px;
+}
+
+.qrimg{
+    height: 100%;
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+.qrwords{
+    padding-bottom: 25px;
+}
+
+.qrtitle{
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+.qrsmalltext{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
